@@ -4,15 +4,13 @@
 This project implements a quantum state poisoning algorithm designed to explore adversarial attacks in quantum machine learning using the **PennyLane** framework. The algorithm modifies quantum states through angle phase-shifting, demonstrating how small perturbations can impact the performance of quantum models.
 ## AE Structure and VQC Layer
 ![QI-attacks1-qtn_Poisoning 1-1](https://github.com/user-attachments/assets/d9249b24-77d0-4c7c-8f2e-798c220fc8b7)
-![updated_psq_with_all-1](https://github.com/user-attachments/assets/39a0d10e-4005-47b6-a383-8cd9c26396ac)
-
 
 ## Features
 - **Quantum Circuit Implementation**: Utilizes PennyLane for customizable quantum circuit design.
 - **Angle Phase-Shifting**: Applies perturbations to rotation angles to create adversarial states.
 - **Fidelity Evaluation**: Computes fidelity between original and adversarial states to assess attack effectiveness.
 - **Dynamic Perturbation Adjustment**: Updates perturbations based on fidelity thresholds to refine attacks.
-
+![updated_psq_with_all-1](https://github.com/user-attachments/assets/39a0d10e-4005-47b6-a383-8cd9c26396ac)
 ## Algorithm
 The core algorithm is structured as follows:
 1. **Initialization**: Prepares the initial quantum state.
