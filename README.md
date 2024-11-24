@@ -18,8 +18,14 @@ The core algorithm is structured as follows:
 3. **Adversarial Angle Calculation**: Modifies angles to create adversarial perturbations.
 4. **State Update and Fidelity Calculation**: Updates the quantum state and computes fidelity.
 5. **Perturbation Adjustment**: Dynamically adjusts perturbations based on fidelity results.
+The core perturbation is modeled as a quantum phase transition:
 
 Refer to the algorithm section in the code for detailed implementation.
+# Core QSP perturbation
+theta_adv = theta + ε*sin(theta) + ε²*sin²(theta)
+phi_adv = phi + ε*cos(phi) + ε²*cos²(phi)
+
+perturbation = ε*(sin(theta_adv) + cos(phi_adv))
 
 ## Requirements
 - Python 3.8.20
