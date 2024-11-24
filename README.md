@@ -10,6 +10,7 @@ This project implements a quantum state poisoning algorithm designed to explore 
 - **Angle Phase-Shifting**: Applies perturbations to rotation angles to create adversarial states.
 - **Fidelity Evaluation**: Computes fidelity between original and adversarial states to assess attack effectiveness.
 - **Dynamic Perturbation Adjustment**: Updates perturbations based on fidelity thresholds to refine attacks.
+- The core perturbation is modeled as a quantum phase transition.
 ![updated_psq_with_all-1](https://github.com/user-attachments/assets/39a0d10e-4005-47b6-a383-8cd9c26396ac)
 ## Algorithm
 The core algorithm is structured as follows:
@@ -18,14 +19,8 @@ The core algorithm is structured as follows:
 3. **Adversarial Angle Calculation**: Modifies angles to create adversarial perturbations.
 4. **State Update and Fidelity Calculation**: Updates the quantum state and computes fidelity.
 5. **Perturbation Adjustment**: Dynamically adjusts perturbations based on fidelity results.
-The core perturbation is modeled as a quantum phase transition:
 
 Refer to the algorithm section in the code for detailed implementation.
-# Core QSP perturbation
-theta_adv = theta + ε*sin(theta) + ε²*sin²(theta)
-phi_adv = phi + ε*cos(phi) + ε²*cos²(phi)
-
-perturbation = ε*(sin(theta_adv) + cos(phi_adv))
 
 ## Requirements
 - Python 3.8.20
