@@ -35,3 +35,8 @@ There are 2 conda environment discription files for easily reconstructing the de
 ```bash
 conda env create -f <env-file>
 ```
+This technique opens new avenues for:
+
+- Studying adversarial robustness in quantum-classical hybrid systems
+- Understanding the relationship between quantum phenomena and adversarial examples
+- Developing quantum-hybrid defenses against classical attacks
