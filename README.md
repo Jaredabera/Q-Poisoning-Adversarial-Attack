@@ -11,7 +11,8 @@ This project implements a quantum state poisoning algorithm designed to explore 
 - **Fidelity Evaluation**: Computes fidelity between original and adversarial states to assess attack effectiveness.
 - **Dynamic Perturbation Adjustment**: Updates perturbations based on fidelity thresholds to refine attacks.
 - The core perturbation is modeled as a quantum phase transition.
-![updated_psq_with_all-1](https://github.com/user-attachments/assets/39a0d10e-4005-47b6-a383-8cd9c26396ac)
+[VQc.pdf](https://github.com/user-attachments/files/18134769/VQc.pdf)
+
 ## Algorithm
 The core algorithm is structured as follows:
 1. **Initialization**: Prepares the initial quantum state.
