@@ -90,35 +90,6 @@ Use the saved `robustness_metrics.csv` for tables or load it into notebooks (`Qu
 
 ## Citing This Work
 
-@INPROCEEDINGS{Nguy2605:Efficient,
-AUTHOR="Vu-Hai Nguyen and Yared Abera Ergu and Ren-Hung Hwang and Trung Q. Duong
-and Van-Linh Nguyen",
-TITLE="Efficient Quantum Soft {Actor-Critic} Model for Dynamic Spectrum Sharing in
-Intelligent {O-RAN}",
-BOOKTITLE="ICC 2026 - IEEE International Conference on Communications: Next-Generation
-Networking \& Internet (IEEE ICC 2026 - NGNI)",
-ADDRESS="Glasgow, United Kingdom (Great Britain)",
-PAGES="5.98",
-ABSTRACT="The Open Radio Access Network (O-RAN) architecture enables intelligent
-Dynamic Spectrum Sharing (DSS), although state-of-the-art deep
-reinforcement learning (DRL) methods have demonstrated remarkable practical
-results, their integration with quantum computing brings greater potential
-for enhancements in performance. In this study, we present Quantum Soft
-Actor-Critic (QSAC), a novel hybrid quantum-classical methodology aimed at
-tackling barren plateaus and demonstrating enhanced performance compared to
-conventional DRL benchmarks, including Soft Actor-Critic (SAC) and Twin
-Delayed Deep Deterministic Policy Gradient (TD3), achieving a higher demand
-satisfaction ratio and markedly improved ϵ-band compliance rates under
-demanding conditions. Additionally, we present a comprehensive
-architectural design for the effective integration of our framework into
-the O-RAN non-real-time and near-real-time RICs. Our quantum-enhanced actor
-significantly reduces the number of trainable actor parameters by over 99\%
-compared to its conventional SAC equivalent (from around 73,000 to merely
-377), indicating an important improvement in model efficiency. To promote
-repeatability and facilitate future research, we offer the open-source
-implementation of our study."
-}
-
 
 # Quantum State Poisoning-Adversarial Attacks 
 ## Overview
