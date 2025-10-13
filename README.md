@@ -14,6 +14,7 @@ This repository contains the research code, experiments, and visual assets for *
 - **Meeting-ready slides** (`qsentinel_results_slides.tex`) capturing evaluation results, expert discussion, and next steps.
 
 ---
+[QIC_xApp-cropped (1).pdf](https://github.com/user-attachments/files/22877804/QIC_xApp-cropped.1.pdf)
 
 ## Repository Layout
 
@@ -119,6 +120,7 @@ compared to its conventional SAC equivalent (from around 73,000 to merely
 repeatability and facilitate future research, we offer the open-source
 implementation of our study."
 }
+
 
 # Q-Sentinel + Quantum State Poisoning-Adversarial Attacks 
 ## Overview
