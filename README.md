@@ -1,5 +1,4 @@
-# Q-Sentinel: Robust Quantum–Classical Defenses for O-RAN
-
+# Q-Sentinel: Towards Adversarial Robustness for Quantum-Classical xApps in Intelligent O-RAN
 This repository contains the research code, experiments, and visual assets for **Q-Sentinel**, a layered defense stack that hardens hybrid quantum–classical (QC) xApps against RF interference attacks in Open RAN (O-RAN) deployments. The project benchmarks clean training, adversarial training (QAT), and the proposed Q-Sentinel approach across gradient-based (QC-FGSM/PGD) and circuit-poisoning threats, demonstrating superior robustness with minimal loss in clean accuracy.
 
 > 🔬 **Core idea:** Combine quantum state tomography (QST), fidelity-aware drift-balancing regularization (Q-DBR), and sentinel snapshots with cosine-drift auto-repair to maintain a wide quantum decision margin under adaptive adversaries.
