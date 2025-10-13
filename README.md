@@ -91,9 +91,36 @@ Use the saved `robustness_metrics.csv` for tables or load it into notebooks (`Qu
 
 ## Citing This Work
 
+@INPROCEEDINGS{Nguy2605:Efficient,
+AUTHOR="Vu-Hai Nguyen and Yared Abera Ergu and Ren-Hung Hwang and Trung Q. Duong
+and Van-Linh Nguyen",
+TITLE="Efficient Quantum Soft {Actor-Critic} Model for Dynamic Spectrum Sharing in
+Intelligent {O-RAN}",
+BOOKTITLE="ICC 2026 - IEEE International Conference on Communications: Next-Generation
+Networking \& Internet (IEEE ICC 2026 - NGNI)",
+ADDRESS="Glasgow, United Kingdom (Great Britain)",
+PAGES="5.98",
+ABSTRACT="The Open Radio Access Network (O-RAN) architecture enables intelligent
+Dynamic Spectrum Sharing (DSS), although state-of-the-art deep
+reinforcement learning (DRL) methods have demonstrated remarkable practical
+results, their integration with quantum computing brings greater potential
+for enhancements in performance. In this study, we present Quantum Soft
+Actor-Critic (QSAC), a novel hybrid quantum-classical methodology aimed at
+tackling barren plateaus and demonstrating enhanced performance compared to
+conventional DRL benchmarks, including Soft Actor-Critic (SAC) and Twin
+Delayed Deep Deterministic Policy Gradient (TD3), achieving a higher demand
+satisfaction ratio and markedly improved ϵ-band compliance rates under
+demanding conditions. Additionally, we present a comprehensive
+architectural design for the effective integration of our framework into
+the O-RAN non-real-time and near-real-time RICs. Our quantum-enhanced actor
+significantly reduces the number of trainable actor parameters by over 99\%
+compared to its conventional SAC equivalent (from around 73,000 to merely
+377), indicating an important improvement in model efficiency. To promote
+repeatability and facilitate future research, we offer the open-source
+implementation of our study."
+}
+
 # Q-Sentinel + Quantum State Poisoning-Adversarial Attacks 
-
-
 ## Overview
 This project implements a quantum state poisoning algorithm designed to explore adversarial attacks in quantum machine learning using the **PennyLane** framework. The algorithm modifies quantum states through angle phase-shifting, demonstrating how small perturbations can impact the performance of quantum models.
 ## AE Structure and VQC Layer
@@ -136,3 +163,14 @@ This technique opens new avenues for:
 - Studying adversarial robustness in quantum-classical hybrid systems
 - Understanding the relationship between quantum phenomena and adversarial examples
 - Developing quantum-hybrid defenses against classical attacks
+## Citing This Work
+@INPROCEEDINGS{11140504,
+  author={Ergu, Yared Abera and Nguyen, Van-Linh and Lin, Po-Ching and Hwang, Ren-Hung},
+  booktitle={2025 IEEE International Conference on Machine Learning for Communication and Networking (ICMLCN)}, 
+  title={Q-Poison: Quantum Adversarial Attacks against QML-driven Interference Classification in O-RAN}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-6},
+  keywords={Quantum computing;Accuracy;Systematics;Perturbation methods;Open RAN;Interference;Computer architecture;Logic gates;Quantum state;Stability analysis;Hybrid quantum-classical networks;adversarial attacks;Q-Poison;Open Radio Access Networks;classification},
+  doi={10.1109/ICMLCN64995.2025.11140504}}
