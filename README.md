@@ -30,7 +30,6 @@ This repository contains the research code, experiments, and visual assets for *
 ├── figures/                      # Baseline learning curve and other figures
 ├── spectrogram-dataset/soi/      # Robustness plots (accuracy vs ε, ASR, etc.)
 ├── reports_qs/                   # Generated CSV/plot outputs (after running pipeline)
-├── qsentinel_results_slides.tex  # Beamer slides for evaluation discussion
 ├── env.yml / requirements.txt    # Conda + pip dependency specifications
 └── README.md                     # This overview
 ```
