@@ -12,8 +12,6 @@ This repository contains the research code, experiments, and visual assets for *
 - **Defense suite** including baseline, QAT, and Q-Sentinel trainers with configurable adversaries (see `qs_sentinel.py`, `defense_utils.py`).
 - **Reproducible pipeline** (`qsentinel_train_eval.py`) that trains each scenario, evaluates robustness across an epsilon grid, and generates publication-ready plots/tables.
 - **Comprehensive visualization assets** in `figures/`, `spectrogram-dataset/soi/`, and `reports_qs/` for inclusion in papers, slides, and posters.
-- **Meeting-ready slides** (`qsentinel_results_slides.tex`) capturing evaluation results, expert discussion, and next steps.
-
 ---
 
 
