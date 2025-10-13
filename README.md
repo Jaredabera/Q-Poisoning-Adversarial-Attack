@@ -5,6 +5,7 @@ This repository contains the research code, experiments, and visual assets for *
 > 🔬 **Core idea:** Combine quantum state tomography (QST), fidelity-aware drift-balancing regularization (Q-DBR), and sentinel snapshots with cosine-drift auto-repair to maintain a wide quantum decision margin under adaptive adversaries.
 
 ---
+<img width="532" height="580" alt="QI-attacks1-new_updated_defense drawio (1)" src="https://github.com/user-attachments/assets/24757ba4-10e0-4a7d-af82-6da7c68fa5b2" />
 
 ## Highlights
 - **Hybrid QC xApp** built with PyTorch, fusing classical ResNet feature extractors and 6-qubit variational circuits (`quantum_classical_hybrid.py`).
@@ -14,7 +15,7 @@ This repository contains the research code, experiments, and visual assets for *
 - **Meeting-ready slides** (`qsentinel_results_slides.tex`) capturing evaluation results, expert discussion, and next steps.
 
 ---
-[QIC_xApp-cropped (1).pdf](https://github.com/user-attachments/files/22877804/QIC_xApp-cropped.1.pdf)
+
 
 ## Repository Layout
 
