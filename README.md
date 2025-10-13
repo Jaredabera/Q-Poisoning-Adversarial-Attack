@@ -124,7 +124,7 @@ implementation of our study."
 }
 
 
-# Q-Sentinel + Quantum State Poisoning-Adversarial Attacks 
+# Quantum State Poisoning-Adversarial Attacks 
 ## Overview
 This project implements a quantum state poisoning algorithm designed to explore adversarial attacks in quantum machine learning using the **PennyLane** framework. The algorithm modifies quantum states through angle phase-shifting, demonstrating how small perturbations can impact the performance of quantum models.
 ## AE Structure and VQC Layer
