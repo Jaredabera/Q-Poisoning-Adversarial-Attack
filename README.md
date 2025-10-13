@@ -164,7 +164,7 @@ This technique opens new avenues for:
 - Understanding the relationship between quantum phenomena and adversarial examples
 - Developing quantum-hybrid defenses against classical attacks
 ## Citing This Work
-@INPROCEEDINGS{11140504,
+BibTeX: "@INPROCEEDINGS{11140504,
   author={Ergu, Yared Abera and Nguyen, Van-Linh and Lin, Po-Ching and Hwang, Ren-Hung},
   booktitle={2025 IEEE International Conference on Machine Learning for Communication and Networking (ICMLCN)}, 
   title={Q-Poison: Quantum Adversarial Attacks against QML-driven Interference Classification in O-RAN}, 
@@ -173,4 +173,4 @@ This technique opens new avenues for:
   number={},
   pages={1-6},
   keywords={Quantum computing;Accuracy;Systematics;Perturbation methods;Open RAN;Interference;Computer architecture;Logic gates;Quantum state;Stability analysis;Hybrid quantum-classical networks;adversarial attacks;Q-Poison;Open Radio Access Networks;classification},
-  doi={10.1109/ICMLCN64995.2025.11140504}}
+  doi={10.1109/ICMLCN64995.2025.11140504}}"
