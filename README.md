@@ -1,15 +1,15 @@
-# Q-Sentinel: Towards Adversarial Robustness for Quantum-Classical xApps in Intelligent O-RAN
-This repository contains the research code, experiments, and visual assets for **Q-Sentinel**, a layered defense stack that hardens hybrid quantum–classical (QC) xApps against RF interference attacks in Open RAN (O-RAN) deployments. The project benchmarks clean training, adversarial training (QAT), and the proposed Q-Sentinel approach across gradient-based (QC-FGSM/PGD) and circuit-poisoning threats, demonstrating superior robustness with minimal loss in clean accuracy.
+# Q-SHIELD: Towards Adversarial Robustness for Quantum-Classical xApps in Intelligent O-RAN
+This repository contains the research code, experiments, and visual assets for **Q-SHIELD**, a layered defense stack that hardens hybrid quantum–classical (QC) xApps against RF interference attacks in Open RAN (O-RAN) deployments. The project benchmarks clean training, adversarial training (QAT), and the proposed Q-SHIELD approach across gradient-based (QC-FGSM/PGD) and circuit-poisoning threats, demonstrating superior robustness with minimal loss in clean accuracy.
 
 > 🔬 **Core idea:** Combine quantum state tomography (QST), fidelity-aware drift-balancing regularization (Q-DBR), and sentinel snapshots with cosine-drift auto-repair to maintain a wide quantum decision margin under adaptive adversaries.
 
 ---
-<img width="1111" height="504" alt="Q-sentinel github" src="https://github.com/user-attachments/assets/e75c85e4-3a0d-44c9-9539-a061007b16bc" />
+<img width="1111" height="504" alt="Q-SHIELD github" src="https://github.com/user-attachments/assets/e75c85e4-3a0d-44c9-9539-a061007b16bc" />
 
 
 ## Highlights
 - **Hybrid QC xApp** built with PyTorch, fusing classical ResNet feature extractors and 6-qubit variational circuits (`quantum_classical_hybrid.py`).
-- **Defense suite** including baseline, QAT, and Q-Sentinel trainers with configurable adversaries (see `qs_sentinel.py`, `defense_utils.py`).
+- **Defense suite** including baseline, QAT, and Q-SHIELD trainers with configurable adversaries (see `qs_sentinel.py`, `defense_utils.py`).
 - **Reproducible pipeline** (`qsentinel_train_eval.py`) that trains each scenario, evaluates robustness across an epsilon grid, and generates publication-ready plots/tables.
 - **Comprehensive visualization assets** in `figures/`, `spectrogram-dataset/soi/`, and `reports_qs/` for inclusion in papers, slides, and posters.
 ---
@@ -38,8 +38,8 @@ This repository contains the research code, experiments, and visual assets for *
 
 ```bash
 # 1) Clone your fork
-git clone https://github.com/<user>/q-sentinel.git
-cd q-sentinel
+git clone https://github.com/<user>/Q-SHIELD.git
+cd Q-SHIELD
 
 # 2) Create the environment (preferred: Conda)
 conda env create -f env.yml
@@ -68,7 +68,7 @@ python qsentinel_train_eval.py \
 ```
 
 This command:
-- Trains the **baseline**, **QAT**, and **Q-Sentinel** models on the provided spectrogram data.
+- Trains the **baseline**, **QAT**, and **Q-SHIELD** models on the provided spectrogram data.
 - Evaluates clean accuracy plus QC-FGSM, QC-PGD, and QC-Poison worst-case accuracy/ASR across ε ∈ {0.01,…,0.10}.
 - Exports JSON histories, `robustness_metrics.csv`, and plots (`training_dynamics.*`, `accuracy_vs_epsilon.*`, `qc_poison_scatter.*`) into `reports_qs/`.
 
@@ -80,11 +80,11 @@ Use the saved `robustness_metrics.csv` for tables or load it into notebooks (`Qu
 |----------|------------|------------------------|----------|------------------------|---------|-----------------------------------------------|
 | Baseline | 0.982 | 0.558 | 0.442 | **0.160** | 0.639 | **0.708** / 3.1×10⁻² |
 | QAT (PGD)| 0.948 | 0.804 | 0.196 | 0.692 | 0.308 | 0.611 / 2.6×10⁻² |
-| **Q-Sentinel** | **0.974** | **0.847** | **0.153** | **0.736** | **0.264** | **0.708 / 1.8×10⁻²** |
+| **Q-SHIELD** | **0.974** | **0.847** | **0.153** | **0.736** | **0.264** | **0.708 / 1.8×10⁻²** |
 
-- Q-Sentinel narrows the worst-case gap by ≈4–5 percentage points beyond QAT while halving Hilbert-space drift under QC-Poison.
+- Q-SHIELD narrows the worst-case gap by ≈4–5 percentage points beyond QAT while halving Hilbert-space drift under QC-Poison.
 - Clean accuracy remains near 98%, demonstrating that robustness does not compromise nominal performance.
-- Figures `spectrogram-dataset/soi/naccuracy_vs_epsilon_ieee.pdf` and `spectrogram-dataset/soi/asr_qcpoison_comparison.pdf` visualize the collapse of undefended models versus the flat response of Q-Sentinel.
+- Figures `spectrogram-dataset/soi/naccuracy_vs_epsilon_ieee.pdf` and `spectrogram-dataset/soi/asr_qcpoison_comparison.pdf` visualize the collapse of undefended models versus the flat response of Q-SHIELD.
 
 ---
 
