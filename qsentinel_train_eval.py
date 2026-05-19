@@ -1,7 +1,7 @@
 """
 Command-line experiment runner for baseline, QAT, and Quantum-Sentinel.
 Saves histories, robustness metrics, training dynamics, and QC-poison scatter
-to a writable output directory.
+to a writable output directory.  
 """
 
 import argparse
