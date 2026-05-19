@@ -1,7 +1,7 @@
 # Q-SHIELD: Towards Adversarial Robustness for Quantum-Classical xApps in Intelligent O-RAN
 This repository contains the research code, experiments, and visual assets for **Q-SHIELD**, a layered defense stack that hardens hybrid quantum–classical (QC) xApps against RF interference attacks in Open RAN (O-RAN) deployments. The project benchmarks clean training, adversarial training (QAT), and the proposed Q-SHIELD approach across gradient-based (QC-FGSM/PGD) and circuit-poisoning threats, demonstrating superior robustness with minimal loss in clean accuracy.
 
-> 🔬 **Core idea:** Combine quantum state tomography (QST), fidelity-aware drift-balancing regularization (Q-DBR), and sentinel snapshots with cosine-drift auto-repair to maintain a wide quantum decision margin under adaptive adversaries.
+>  **Core idea:** Combine quantum state tomography (QST), fidelity-aware drift-balancing regularization (Q-DBR), and sentinel snapshots with cosine-drift auto-repair to maintain a wide quantum decision margin under adaptive adversaries.
 
 ---
 <img width="1111" height="504" alt="Q-SHIELD github" src="https://github.com/user-attachments/assets/e75c85e4-3a0d-44c9-9539-a061007b16bc" />
