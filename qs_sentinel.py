@@ -1,7 +1,7 @@
 """
 Quantum-Sentinel/QAT training and evaluation utilities (clean rewrite, PyTorch 2.0+).
 
-Exports
+Additional Exports
 -------
 - QuantumSentinelTrainer, QuantumAdversarialTrainer (QAT baseline)
 - evaluate_model (clean + QC-FGSM + QC-PGD + QC-Poison metrics)
